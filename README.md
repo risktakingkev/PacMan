@@ -3,9 +3,18 @@
 Purpose:
 The purpose of this project is to create a PacMan-type text game using the java programming language.
 
+Essentially, the main processing cycle consist of the grid being displayed after each command showing the effects of the command. Once the user input is read/accepted the implementation of the PacMan-type text game can be observed. 
+
+NOTE:
+1. If an invalid command is entered, an appropriate error message is displayed and the menu of commands and grid gets redisplayed. 
+2. Process the command and add one to the number of commands entered if it is a move command.
+3. If the user enters the Exit command, the program will display the number of commands and the average number of commands per cookie.
+4. If the resulting move places the PacMan over a cookie, indicate the cookie was eaten and add one to the number of cookies eaten for the program statistics.
+
+
 Program Specification:
 
-1. A java program is created implementing a simple PacMan-type text game which contains the following functionality:
+1. A java program is created implementing a simple PacMan-type text game which contains the following functionalities:
 
 A) 
 
@@ -54,15 +63,4 @@ d. Current: left, new up
 5. Exit – exits the program displaying the game statistics of the number of total moves and the
 average number of moves per cookie obtained.
 
-
-
-Essentially, the main processing cycle is the following:
-
-1. The grid is be displayed after each command showing the effects of the command. Once the user input is read/accepted
-the implementation of the PacMan-type text game can be observed. 
-NOTE:
-1. If an invalid command is entered, an appropriate error message is displayed and the menu of commands and grid gets redisplayed. 
-2. Process the command and add one to the number of commands entered if it is a move command.
-3. If the user enters the Exit command, the program will display the number of commands and the average number of commands per cookie.
-4. If the resulting move places the PacMan over a cookie, indicate the cookie was eaten and add one to the number of cookies eaten for the program statistics.
 
